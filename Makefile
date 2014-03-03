@@ -72,7 +72,7 @@ unarchive:
 build-source:
 	@echo "\n Building $(POD_NAME) \n"
 	@mkdir -p pod-build
-	cd pod-build && ../$(POD_NAME)/configure --prefix=$(BUILD_PREFIX)
+	cd pod-build && ../apache-couchdb-1.5.0/configure --prefix=$(BUILD_PREFIX) --enable-js-trunk
 	cd pod-build && make
 	@touch built.touch
 
