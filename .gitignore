@@ -1,0 +1,5 @@
+pod-build/
+*~
+*.touch
+*.tar.gz
+apache-couchdb-1.5.0/
